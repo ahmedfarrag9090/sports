@@ -130,7 +130,6 @@ header{
     padding: 30px;
     padding-bottom: 30px;
     display: flex;
-    flex-flow: row-reverse;
     justify-content: space-between;
     
 }
@@ -152,11 +151,11 @@ aside ul li {
 }
 
 aside nav ul li{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 aside nav ul li:last-of-type {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 aside ul li a img{
@@ -174,7 +173,7 @@ aside .side-line{
 }
 
 aside .social-icons ul li{
-    margin-top: 7px;
+    margin-top: 4px;
     width: 20px;
 }
 
@@ -205,11 +204,11 @@ aside .social-icons ul li{
 
 
 button {
+    background-color: transparent;
     border: solid 3px rgba(218, 0, 128, .7);
     box-shadow: 0 0 10px rgba(218, 0, 128, .7);
     border-radius: 6px;
     padding: 5px 20px;
-    background-color: transparent;
     color: #fff;
     font-size: 1.2rem;
     font-weight: bold;
